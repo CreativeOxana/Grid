@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background: #333;
+  grid-template-areas: "header header header" "sidebar content1 content2" "sidebar content3 content4" "footer footer footer";
+  grid-gap: 50px;
+}
+.item {
+  background: orange;
+  color: #fff;
+  font-size: 30px;
+  padding: 50px;
+  text-align: center;
+}
+.header {
+  grid-area: header;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content1;
+}
+.content3 {
+  grid-area: content1;
+}
+.content4 {
+  grid-area: content1;
+}
+.footer {
+  grid-area: footer;
+}
